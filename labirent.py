@@ -22,6 +22,7 @@ robotsütun=1
 while True:
     if harita[robotsatır][robotsütun] == "E":
         print("robot çıkışa ulaştı")
+        input("\nÇıkmak için Enter'a basın...")
         break
 
     harita[robotsatır][robotsütun] = "R"
@@ -40,4 +41,5 @@ while True:
         robotsatır -= 1
     else:
         print("gidecek yer yok")
+        input("\nÇıkmak için Enter'a basın...")
         break
